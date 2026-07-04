@@ -247,3 +247,65 @@ body {
     letter-spacing: 2px; 
 
 }
+@media (max-width: 768px) {
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 15px;
+    margin-top: 0;
+  }
+
+  .hero-left, .hero-right {
+    max-width: 100%;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features {
+    flex-direction: column;
+    padding: 40px 20px;
+    margin-top: 0;
+  }
+
+  .feature-left,
+  .feature-right {
+    width: 100%;
+    position: static;
+    text-align: center;
+  }
+
+  .feature-left img,
+  .feature-right img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  /* REMOVE absolute positioning effect */
+  .feature-left h2,
+  .feature-left p,
+  .feature-right h2,
+  .feature-right p {
+    position: static;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .future-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .future-right {
+    padding-left: 0;
+  }
+
+  .main-footer {
+    margin-top: 0;
+    padding: 40px 15px;
+  }
+}
